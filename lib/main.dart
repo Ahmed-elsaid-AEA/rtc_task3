@@ -1,11 +1,52 @@
-import 'dart:io';
-
 void main() {
-// var  dynamic
-  int firstNumber = 40;
-  int secondNumber = 20;
-  int sum = firstNumber + secondNumber;
-  print("sum : $sum");
+  //make user input his grade and make some condition
+  // make user input his name  somecondtion
+  String name = "ahmed";
+  if (name == "ahmed") {
+    print("object");
+  } else if (name == "ali") {
+  } else {}
+  int i = 5;
+  if (i == 5) {
+    print("i==5");
+  } else if (i > 4) {
+    print("(i>5)");
+  } else {
+    print("welcome");
+  }
+  if (i == 5) {
+    print("ahmed");
+  }
+  //0 : 49 failed
+  //50 :69 good
+  //70 :79 very good
+  //80 :89 very good high
+  //90 :100 excellient
+  // print("Enter your grade to choose which will choose ( faild good ....)");
+  // double grade = double.parse(stdin.readLineSync()!);
+  // if (grade >= 0 && grade < 50) {
+  //   print("failed");
+  // } else if (grade >= 50 && grade <= 69) {
+  //   print("good");
+  // } else if (grade >= 70 && grade <= 79) {
+  //   print(" very good");
+  // } else if (grade >= 80 && grade <= 89) {
+  //   print("very good high");
+  // } else if (grade >= 90 && grade <= 100) {
+  //   print("very good high");
+  // } else {
+  //   print("not invalid grade");
+  // }
+
+//make user input her grade in math
+  // print("enter your grade in secondary ");
+  // double grade = double.parse(stdin.readLineSync()!);
+  // print("your grade is $grade");
+// // var  dynamic
+//   int firstNumber = 40;
+//   int secondNumber = 20;
+//   int sum = firstNumber + secondNumber;
+//   print("sum : $sum");
   /*
   print("5");
   //make program that allow user to enter name , age ,saalry fuctllty and his success , and his price of his pen
